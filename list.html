@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>List</title>
+    <style>
+        .teach{
+            width:49.5%;
+            display:inline-block;
+            float:left;
+        }
+        .books{
+            width:49.5%;
+            display:inline-block;
+            float:left;
+            margin-left:1%;
+        }
+        #row:after{
+            content:"";
+            display:table;
+            clear:both;
+        }
+        .teachlist{
+            background:#4fc9df;
+            padding:3px;
+            list-style-position:inside;
+        }
+        .teach li{
+            background:#ffdddd;
+            padding:10px;
+            margin:2px;
+            letter-spacing:5px;
+            color:rgb(2, 150, 2);
+        }
+        .bookslist{
+            background:#fab473;
+            padding:3px;
+            list-style-position:outside;
+        }
+        .books li{
+            background:#cce5ff;
+            padding:10px;
+            color:rgb(38, 24, 233);
+            margin:1px;
+            margin-left:40px;
+        }
+        table{
+            border-collapse: collapse;
+            width:100%;
+        }
+        th, td{
+            text-align:left;
+            padding:8px;
+            border:1px solid rgb(236, 172, 236);
+        }
+        tr:nth-child(even){background-color:#f8dbeb;}
+        @media(max-width:850px){
+            .teach, .books{
+                width:99.99999%;
+                margin:0;
+            }
+        }
+        @media(max-width:500px){
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="nav">
+        <img class="profile" src="fb-profile.jpg" alt="Profile"
+            width="125" height="100">
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a  class="active" href="#">List</a></li>
+            <li><a href="bootstrap.html">Bootstrap</a></li>
+        </ul>
+    </div>
+<div class="container" id="row" style="margin-top:0;">
+    <div class="teach">
+        <h3>Teach me or Help: </h3>
+        <ul class="teachlist">
+            <li>Mobile</li>
+            <li>Books</li>
+            <li>Laptop</li>
+            <li>Jhankar Mahbub</li>
+            <li>Shikhok.com</li>
+            <li>Google</li>
+            <li>Islamic Lecturers</li>
+            <li>W3Schools</li>
+        </ul>
+    </div>
+    <div class="books">
+        <h3>Readable Books: </h3>
+        <ol class="bookslist">
+            <li>Programming er choddo gusthi</li>
+            <li>Reacharge your down bettery</li>
+            <li>Vrantir berajale Iqamate din</li>
+            <li>Jaal Hadiser Kobole RASULULLAH (Sm) er Salat</li>
+            <li>Adorsho Poribar</li>
+            <li>Adorsho purush</li>
+            <li>Nobider Kahini 1, 2 and 3</li>
+        </ol>
+    </div>
+</div>
+    <div class="container" style="overflow-x:auto;">
+        <table>
+            <tr>
+                <th>Option</th>
+                <th>Spend Time</th>
+                <th>Repair time</th>
+            </tr>
+            <tr>
+                <td>Learn English</td>
+                <td>20 Minutes</td>
+                <td>120 Minutes</td>
+            </tr>
+            <tr>
+                <td>Programming</td>
+                <td>150 Minutes</td>
+                <td>200 Minutes</td>
+            </tr>
+            <tr>
+                <td>Facebook</td>
+                <td>30 Minutes</td>
+                <td>20 Minutes</td>
+            </tr>
+            <tr>
+                <td>Massenger</td>
+                <td>20 Minutes</td>
+                <td>10 Minutes</td>
+            </tr>
+            <tr>
+                <td>Bd News 24</td>
+                <td>20 Minutes</td>
+                <td>10 Minutes</td>
+            </tr>
+            <tr>
+                <td>Prothom Alo</td>
+                <td>20 Minutes</td>
+                <td>10 Minutes</td>
+            </tr>
+            <tr>
+                <td>Games</td>
+                <td>0 Minute</td>
+                <td>0 Minute</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
