@@ -50,7 +50,7 @@ body{
     background-color:hotpink;
     text-decoration:underline;
 }
-.active { background-color: rgb(220, 220, 255);}
+.active { background-color: #0269a8;}
 h3{
     text-align:center;
     color:blueviolet;
